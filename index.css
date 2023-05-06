@@ -19,6 +19,13 @@ body {
   justify-content: center;
   background-color: var(--Dark-Blue);
 }
+
+header {
+  color: var(--Light-Cyan);
+  font-size: 1.1rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
 .advice-card {
   width: 500px;
   background-color: var(--Dark-Grayish-Blue);
@@ -66,6 +73,9 @@ button:hover {
 @media screen and (max-width: 500px) {
   .advice-card {
     width: 350px;
+  }
+  header {
+    font-size: 0.9rem;
   }
 }
 

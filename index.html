@@ -15,21 +15,27 @@
   </head>
   <body>
     <div>
-      <div class="advice-card">
-        <div class="card-container">
-          <p>Advice #<span id="advice-id"></span></p>
-          <h2>" <span id="advice-text"></span> "</h2>
-          <picture>
-            <source
-              media="(max-width:500px)"
-              srcset="/images/pattern-divider-mobile.svg" />
-            <img src="./images/pattern-divider-desktop.svg" alt="dice" />
-          </picture>
-          <button id="generate-btn">
-            <img src="./images/icon-dice.svg" alt="dice" />
-          </button>
+      <header>
+        <h1>Advice Generator App</h1>
+      </header>
+
+      <main>
+        <div class="advice-card">
+          <div class="card-container">
+            <p>Advice #<span id="advice-id"></span></p>
+            <h2>" <span id="advice-text"></span> "</h2>
+            <picture>
+              <source
+                media="(max-width:500px)"
+                srcset="/images/pattern-divider-mobile.svg" />
+              <img src="./images/pattern-divider-desktop.svg" alt="dice" />
+            </picture>
+            <button id="generate-btn">
+              <img src="./images/icon-dice.svg" alt="dice" />
+            </button>
+          </div>
         </div>
-      </div>
+      </main>
       <footer>
         <div class="attribution">
           Challenge by
